@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Copy shrug",
+    "description": "Add shrug to the clipboard, as plain text.",
+    "version": "1.0",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+	
+	"icons": {
+    "48": "icons/tsu.png"
+  },
+	"browser_action": {
+    "default_icon": "icons/tsu.png",
+    "default_title": "Copy shrug"
+  },
+    "permissions": [
+        "clipboardWrite"
+    ]
+}
